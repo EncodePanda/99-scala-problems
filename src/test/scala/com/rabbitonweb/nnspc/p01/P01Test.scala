@@ -13,4 +13,8 @@ class P01Test extends FunSuite with Matchers {
   test("that returns none for empty list") {
     p01.last(List()) should be(None)
   }
+
+  test("that returns last element of list") {
+    p01.last(List(1, 1, 2, 3, 5, 8)) should be(Some(8))
+  }
 }
