@@ -4,3 +4,7 @@
 # idea specific
 *.iml
 .idea/*
+
+# gradle specific
+build/*
+.gradle
