@@ -1,0 +1,13 @@
+apply plugin: 'scala'
+
+repositories{
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies{
+    compile 'org.slf4j:slf4j-api:1.7.5'
+    compile "org.scala-lang:scala-library:2.10.4"
+    testCompile "org.scalatest:scalatest_2.10:2.0"
+    testCompile "junit:junit:4.11"
+}
