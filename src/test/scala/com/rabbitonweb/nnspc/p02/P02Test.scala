@@ -14,4 +14,7 @@ class P02Test extends FunSuite with Matchers {
     p02.penultimate(List(5)) should be(None)
   }
 
+  test("that returns first element of two-elements list") {
+    p02.penultimate(List(5, 7)) should be(Some(5))
+  }
 }
