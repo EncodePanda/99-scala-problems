@@ -17,4 +17,8 @@ class P02Test extends FunSuite with Matchers {
   test("that returns first element of two-elements list") {
     p02.penultimate(List(5, 7)) should be(Some(5))
   }
+
+  test("that returns last but one element of list with size > 2") {
+    p02.penultimate(List(8, 9, 1, 5, 7, 3)) should be(Some(7))
+  }
 }
