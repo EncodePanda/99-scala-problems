@@ -10,4 +10,8 @@ class P02Test extends FunSuite with Matchers {
     p02.penultimate(List()) should be(None)
   }
 
+  test("that returns none for one-element list") {
+    p02.penultimate(List(5)) should be(None)
+  }
+
 }
