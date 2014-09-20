@@ -14,4 +14,8 @@ class P04Test extends FunSuite with Matchers {
     p04.length(List(1)) should equal(1)
   }
 
+  test("that returns the list length") {
+    p04.length(List(1, 3, 7, 9, 0)) should equal(5)
+  }
+
 }
