@@ -17,4 +17,8 @@ class P05Test extends FunSuite with Matchers {
   test("that two-elements list should switch elements when reversed") {
     p05.reverse(List(1, 2)) should equal(List(2, 1))
   }
+
+  test("that list should be reversed") {
+    p05.reverse(List(1, 2, 3, 4, 5, 6)) should equal(List(6, 5, 4, 3, 2, 1))
+  }
 }
