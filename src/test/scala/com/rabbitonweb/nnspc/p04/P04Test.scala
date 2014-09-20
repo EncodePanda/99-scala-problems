@@ -10,4 +10,8 @@ class P04Test extends FunSuite with Matchers {
     p04.length(List()) should equal(0)
   }
 
+  test("that one-element list is of length 1") {
+    p04.length(List(1)) should equal(1)
+  }
+
 }
