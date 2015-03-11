@@ -5,6 +5,6 @@
 *.iml
 .idea/*
 
-# gradle specific
-build/*
-.gradle
+# sbt specific
+project/*
+target/*

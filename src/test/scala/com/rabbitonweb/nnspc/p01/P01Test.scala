@@ -1,10 +1,8 @@
 package com.rabbitonweb.nnspc.p01
 
-import org.junit.runner.RunWith
 import org.scalatest.junit.JUnitRunner
 import org.scalatest.{FunSuite, Matchers}
 
-@RunWith(classOf[JUnitRunner])
 class P01Test extends FunSuite with Matchers {
 
   val p01 = new P01[Int]()
