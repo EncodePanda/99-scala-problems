@@ -6,8 +6,10 @@ Example:
 scala> isPalindrome(List(1, 2, 3, 2, 1))
 res0: Boolean = true
  */
-object P06 {
-  def isPalindrome(list: List[Int]): Boolean = {
-    return true
+class P06[T] {
+  def isPalindrome(list: List[T]): Boolean = list match {
+    case Nil => true
+    case head :: Nil => true
+    case e1 :: e2 :: Nil => e1 == e2
   }
 }
