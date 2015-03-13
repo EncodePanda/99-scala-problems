@@ -1,4 +1,4 @@
-package com.rabbitonweb.nnspc.p03
+package com.rabbitonweb.nnspc
 
 import scala.annotation.tailrec
 

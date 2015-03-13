@@ -1,6 +1,5 @@
-package com.rabbitonweb.nnspc.p01
+package com.rabbitonweb.nnspc
 
-import org.scalatest.junit.JUnitRunner
 import org.scalatest.{FunSuite, Matchers}
 
 class P01Test extends FunSuite with Matchers {

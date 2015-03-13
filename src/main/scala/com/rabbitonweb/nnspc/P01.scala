@@ -1,4 +1,4 @@
-package com.rabbitonweb.nnspc.p01
+package com.rabbitonweb.nnspc
 
 class P01[T] {
   def last(list: List[T]): Option[T] = list match {

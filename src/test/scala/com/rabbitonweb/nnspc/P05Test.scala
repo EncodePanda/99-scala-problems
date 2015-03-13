@@ -1,4 +1,4 @@
-package com.rabbitonweb.nnspc.p05
+package com.rabbitonweb.nnspc
 
 import org.scalatest.{FunSuite, Matchers}
 
