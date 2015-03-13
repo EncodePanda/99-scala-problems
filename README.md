@@ -19,5 +19,9 @@ Project can be compiled and tested using *sbt*.
 1. Simply clone/download the project
 2. By using your command line type `sbt`. 
 3. Once sbt is started simply type
-..* `test` to fire up all tests suits
-..* `testOnly com.rabbitonweb.nnspc.P##Test` to run a specific test
+* `test` to fire up all tests suits
+* `testOnly com.rabbitonweb.nnspc.P##Test` to run a specific test
+
+##Follow my travel
+
+While solving the problems, I try to my journey on my [blog](http://www.rabbitonweb.com)
